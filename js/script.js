@@ -12,4 +12,8 @@ function add(){
     var titleValue=title.value;
     var bodyValue=body.value;
     console.log(titleValue+bodyValue);
-    }
+	document.getElementById("test").innerHTML = titleValue+"<br />"+bodyValue;
+}
+function clearr(){
+	document.getElementById("test").innerHTML = "fill the fields above to create a task";
+}
